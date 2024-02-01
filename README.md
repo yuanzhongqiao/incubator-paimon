@@ -1,83 +1,66 @@
-![Paimon](https://paimon.apache.org/assets/paimon_blue.svg)
-
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![Get on Slack](https://img.shields.io/badge/slack-join-orange.svg)](https://the-asf.slack.com/archives/C053Q2NCW8G)
-
-Paimon is a streaming data lake platform that supports high-speed data ingestion, change data tracking and efficient real-time analytics.
-
-Background and documentation are available at https://paimon.apache.org
-
-`Paimon`'s former name was `Flink Table Store`, developed from the Flink community. The architecture refers to some design concepts of Iceberg.
-Thanks to Apache Flink and Apache Iceberg.
-
-## Collaboration
-
-Paimon tracks issues in GitHub and prefers to receive contributions as pull requests.
-
-## Mailing Lists
-
-<table class="table table-striped">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cb560110208326a739efba0818e79cadb95a30e73435588a101a5c3af601f4fe/68747470733a2f2f7061696d6f6e2e6170616368652e6f72672f6173736574732f7061696d6f6e5f626c75652e737667"><img src="https://camo.githubusercontent.com/cb560110208326a739efba0818e79cadb95a30e73435588a101a5c3af601f4fe/68747470733a2f2f7061696d6f6e2e6170616368652e6f72672f6173736574732f7061696d6f6e5f626c75652e737667" alt="派蒙" data-canonical-src="https://paimon.apache.org/assets/paimon_blue.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="nofollow"><img src="https://camo.githubusercontent.com/3e787ad45f0862131e82fe26cfdf93deb2c5fbdd320f047942fa916088cc716e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d3445423142412e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg" style="max-width: 100%;"></a>
+<a href="https://the-asf.slack.com/archives/C053Q2NCW8G" rel="nofollow"><img src="https://camo.githubusercontent.com/21134ce22db8dc96c8ffed33cbfe3912dd1a17cf81c747983fbcad9769ac6509/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736c61636b2d6a6f696e2d6f72616e67652e737667" alt="加入 Slack" data-canonical-src="https://img.shields.io/badge/slack-join-orange.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paimon 是一个流数据湖平台，支持高速数据摄取、变更数据跟踪和高效的实时分析。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背景和文档可在</font></font><a href="https://paimon.apache.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://paimon.apache.org获取</font></font></a></p>
+<p dir="auto"><code>Paimon</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以前的名字是</font></font><code>Flink Table Store</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，由 Flink 社区开发而来。</font><font style="vertical-align: inherit;">架构参考了Iceberg的一些设计理念。</font><font style="vertical-align: inherit;">感谢 Apache Flink 和 Apache Iceberg。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-collaboration" class="anchor" aria-hidden="true" tabindex="-1" href="#collaboration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合作</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paimon 跟踪 GitHub 中的问题，并更喜欢以拉取请求的形式接收贡献。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-mailing-lists" class="anchor" aria-hidden="true" tabindex="-1" href="#mailing-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件列表</font></font></h2>
+<table>
   <thead>
-    <th class="text-center">Name</th>
-    <th class="text-center">Subscribe</th>
-    <th class="text-center">Digest</th>
-    <th class="text-center">Unsubscribe</th>
-    <th class="text-center">Post</th>
-    <th class="text-center">Archive</th>
-  </thead>
-  <tr>
+    <tr><th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">姓名</font></font></th>
+    <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font></th>
+    <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">消化</font></font></th>
+    <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">退订</font></font></th>
+    <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮政</font></font></th>
+    <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">档案</font></font></th>
+  </tr></thead>
+  <tbody><tr>
     <td>
-      <strong>user</strong>@paimon.apache.org<br>
-      <small>User support and questions mailing list</small>
-    </td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:user-subscribe@paimon.apache.org">Subscribe</a></td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:user-digest-subscribe@paimon.apache.org">Subscribe</a></td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:user-unsubscribe@paimon.apache.org">Unsubscribe</a></td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:user@paimon.apache.org">Post</a></td>
-    <td class="text-center">
-      <a href="https://lists.apache.org/list.html?user@paimon.apache.org">Archives</a>
+      <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@paimon.apache.org</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      用户支持和问题邮件列表
+    </font></font></td>
+    <td><i></i> <a href="mailto:user-subscribe@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font></a></td>
+    <td><i></i> <a href="mailto:user-digest-subscribe@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font></a></td>
+    <td><i></i> <a href="mailto:user-unsubscribe@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">退订</font></font></a></td>
+    <td><i></i> <a href="mailto:user@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮政</font></font></a></td>
+    <td>
+      <a href="https://lists.apache.org/list.html?user@paimon.apache.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">档案</font></font></a>
     </td>
   </tr>
   <tr>
     <td>
-      <strong>dev</strong>@paimon.apache.org<br>
-      <small>Development related discussions</small>
-    </td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:dev-subscribe@paimon.apache.org">Subscribe</a></td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:dev-digest-subscribe@paimon.apache.org">Subscribe</a></td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:dev-unsubscribe@paimon.apache.org">Unsubscribe</a></td>
-    <td class="text-center"><i class="fa fa-pencil-square-o"></i> <a href="mailto:dev@paimon.apache.org">Post</a></td>
-    <td class="text-center">
-      <a href="https://lists.apache.org/list.html?dev@paimon.apache.org">Archives</a>
+      <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dev</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> @paimon.apache.org</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      开发相关讨论
+    </font></font></td>
+    <td><i></i> <a href="mailto:dev-subscribe@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font></a></td>
+    <td><i></i> <a href="mailto:dev-digest-subscribe@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font></a></td>
+    <td><i></i> <a href="mailto:dev-unsubscribe@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">退订</font></font></a></td>
+    <td><i></i> <a href="mailto:dev@paimon.apache.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮政</font></font></a></td>
+    <td>
+      <a href="https://lists.apache.org/list.html?dev@paimon.apache.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">档案</font></font></a>
     </td>
   </tr>
-</table>
-
-<b style="color:red">Please make sure you are subscribed to the mailing list you are posting to!</b> If you are not subscribed to the mailing list, your message will either be rejected (dev@ list) or you won't receive the response (user@ list).
-
-## Slack
-
-You can join the Paimon community on Slack. Paimon channel is in ASF Slack workspace.
-
-- Anyone with an @apache.org email address can become a full member of the ASF Slack workspace.
-  Search [Paimon channel](https://the-asf.slack.com/archives/C053Q2NCW8G) and join it.
-- If you don't have an @apache.org email address, you can email to `user@paimon.apache.org` to apply for an
-  [ASF Slack invitation](https://infra.apache.org/slack.html). Then join [Paimon channel](https://the-asf.slack.com/archives/C053Q2NCW8G).
-
-Don’t forget to introduce yourself in channel.
-
-## Building
-
-JDK 8/11 is required for building the project.
-
-- Run the `mvn clean install -DskipTests` command to build the project.
-- Run the `mvn spotless:apply` to format the project (both Java and Scala).
-- IDE: Mark `paimon-common/target/generated-sources/antlr4` as Sources Root.
-
-## How to Contribute
-
-[Contribution Guide](https://paimon.apache.org/docs/master/project/contributing/).
-
-## License
-
-The code in this repository is licensed under the [Apache Software License 2](LICENSE).
+</tbody></table>
+<p dir="auto"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请确保您订阅了您要发布的邮件列表！</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您没有订阅邮件列表，您的消息将被拒绝 (dev@list)，或者您将不会收到响应 (user@list)。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-slack" class="anchor" aria-hidden="true" tabindex="-1" href="#slack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">松弛</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以加入 Slack 上的 Paimon 社区。</font><font style="vertical-align: inherit;">Paimon 频道位于 ASF Slack 工作区中。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何拥有 @apache.org 电子邮件地址的人都可以成为 ASF Slack 工作区的正式成员。</font><font style="vertical-align: inherit;">搜索</font></font><a href="https://the-asf.slack.com/archives/C053Q2NCW8G" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paimon 频道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并加入。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您没有 @apache.org 电子邮件地址，您可以发送电子邮件至</font></font><code>user@paimon.apache.org</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申请
+</font></font><a href="https://infra.apache.org/slack.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ASF Slack 邀请</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然后加入</font></font><a href="https://the-asf.slack.com/archives/C053Q2NCW8G" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paimon频道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要忘记在频道中介绍自己。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-building" class="anchor" aria-hidden="true" tabindex="-1" href="#building"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建筑</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建项目需要 JDK 8/11。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>mvn clean install -DskipTests</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令来构建项目。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>mvn spotless:apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以格式化项目（Java 和 Scala）。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IDE：标记</font></font><code>paimon-common/target/generated-sources/antlr4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为源根。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-how-to-contribute" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何贡献</font></font></h2>
+<p dir="auto"><a href="https://paimon.apache.org/docs/master/project/contributing/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此存储库中的代码已根据</font></font><a href="/apache/incubator-paimon/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache 软件许可证 2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得许可。</font></font></p>
+</article></div>
